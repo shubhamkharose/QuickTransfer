@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfileshare.HotspotHelpController">
+   <children>
+      <WebView fx:id="webView" layoutX="11.0" layoutY="51.0" minHeight="-1.0" minWidth="-1.0" prefHeight="315.0" prefWidth="530.0" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="540.0" text="It seems that you are running on Linux, follow the instructions...">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

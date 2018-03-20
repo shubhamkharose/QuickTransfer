@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JFileShare.jnlp">
+  <information>
+    <title>JFileShare</title>
+    <vendor>onk_r</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Xms10m "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JFileShare.jar" size="879374" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JFileShare" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="jfileshare.JFileShare"  name="JFileShare" />
+  <update check="always"/>
+</jnlp>

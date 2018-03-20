@@ -1,0 +1,142 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="utf-8" />  
+    <title>Linux Hotspot Support</title>  
+    <style type="text/css">  
+        body {  
+            margin: 0;  
+            background: #e6e6e6;  
+        }  
+        .showSlide {  
+            display: none  
+        }  
+		.showSlide img {  
+			width: 100%;
+			height: 100%;
+		}  
+        .slidercontainer {  
+            max-width: 1000px;  
+            position: relative;  
+            margin: auto;  
+        }  
+        .left, .right {  
+            cursor: pointer;  
+            position: absolute;  
+            top: 50%;  
+            width: auto;  
+            padding: 16px;  
+            margin-top: -22px;  
+            color: white; 
+            font-weight: bold;  
+            font-size: 18px;  
+            transition: 0.6s ease;  
+            border-radius: 0 3px 3px 0; 
+			background-color: #555555;
+        }  
+        .right {  
+            right: 0;  
+            border-radius: 3px 0 0 3px;  
+        }  
+		.left:hover, .right:hover {  
+			background-color: rgba(115, 115, 115, 0.8);  
+		}  
+        .content {  
+            color: #eff5d4;  
+            font-size: 30px;  
+            padding: 8px 12px;  
+            position: absolute;  
+            top: 10px;  
+            width: 100%;  
+			height: 100%;
+            text-align: center;  
+        }  
+        .active {  
+            background-color: #717171;  
+        }  
+        /* Fading animation */  
+        .fade {  
+            -webkit-animation-name: fade;  
+            -webkit-animation-duration: 1.5s;  
+            animation-name: fade;  
+            animation-duration: 1.5s;  
+        }  
+        @-webkit-keyframes fade {  
+            from {  
+                opacity: .4  
+            }  
+            to {  
+                opacity: 1  
+            }  
+        }  
+  
+        @keyframes fade {  
+            from {  
+                opacity: .4  
+            }  
+            to {  
+                opacity: 1  
+            }  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help1.png" />    
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help2.png" />
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help3.png" />
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help4.png" />
+        </div>
+		<div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help5.png" />
+        </div>
+		<div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help6.png" />
+        </div>
+		<div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help7.png" />
+        </div>
+		<div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help8.png" />
+        </div>
+		<div class="showSlide fade">  
+            <img src="img/slides/HelpSlides/help9.png" />
+        </div>
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">&#10094;</a>  
+        <a class="right" onclick="nextSlide(1)">&#10095;</a>  
+    </div>  
+  
+    <script type="text/javascript">  
+        var slide_index = 1;  
+        displaySlides(slide_index);  
+  
+        function nextSlide(n) {  
+            displaySlides(slide_index += n);  
+        }  
+  
+        function currentSlide(n) {  
+            displaySlides(slide_index = n);  
+        }  
+  
+        function displaySlides(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide");  
+            if (n > slides.length) { slide_index = 1 }  
+            if (n < 1) { slide_index = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index - 1].style.display = "block";  
+        }  
+    </script>  
+  
+</body>  
+</html>

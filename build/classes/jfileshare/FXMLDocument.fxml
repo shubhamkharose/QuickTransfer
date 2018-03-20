@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfileshare.FXMLDocumentController">
+   <children>
+      <Button fx:id="receive" layoutX="371.0" layoutY="130.0" mnemonicParsing="false" onAction="#actionPerformed" prefHeight="31.0" prefWidth="71.0" text="Receive" />
+      <Button fx:id="send" layoutX="161.0" layoutY="130.0" mnemonicParsing="false" onAction="#actionPerformed" prefHeight="31.0" prefWidth="71.0" text="Send" />
+      <Button fx:id="i" layoutX="548.0" layoutY="290.0" mnemonicParsing="false" onAction="#actionPerformed" prefHeight="31.0" prefWidth="32.0" text="i" textFill="#0099ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ImageView fx:id="imageview" fitHeight="150.0" fitWidth="200.0" layoutX="83.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

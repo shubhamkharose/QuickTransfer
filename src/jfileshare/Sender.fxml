@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfileshare.SenderController">
+   <children>
+      <ProgressBar fx:id="progress" layoutX="65.0" layoutY="300.0" prefHeight="15.0" prefWidth="323.0" progress="0.0" />
+      <Button fx:id="connect" layoutX="393.0" layoutY="94.0" mnemonicParsing="false" onAction="#actionPerformed" text="Make Server On">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="Browse" layoutX="392.0" layoutY="199.0" mnemonicParsing="false" onAction="#actionPerformed" text="Browse File">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <TextField fx:id="file" layoutX="65.0" layoutY="201.0" prefHeight="25.0" prefWidth="296.0" />
+      <Label fx:id="status" layoutX="438.0" layoutY="40.0" text="Disconnected">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Button fx:id="send" disable="true" layoutX="226.0" layoutY="248.0" mnemonicParsing="false" onAction="#actionPerformed" prefHeight="29.0" prefWidth="76.0" text="Send">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Label fx:id="ip" layoutX="61.0" layoutY="138.0" text="IP : ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Button fx:id="Enable" layoutX="60.0" layoutY="37.0" mnemonicParsing="false" onAction="#actionPerformed" text="Enable Hotspot">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Label fx:id="per" layoutX="404.0" layoutY="299.0" text="  0 %     ____MB/s">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="59.0" layoutY="99.0" text="No. of Receivers :">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <TextField fx:id="no_of_user" layoutX="226.0" layoutY="93.0" prefHeight="25.0" prefWidth="111.0" promptText="less than 8" />
+      <Label layoutX="383.0" layoutY="40.0" text="Status : ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Button fx:id="ConDev" disable="true" layoutX="393.0" layoutY="147.0" mnemonicParsing="false" onAction="#actionPerformed" text="Connected Devices">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="share" layoutX="226.0" layoutY="37.0" mnemonicParsing="false" onAction="#actionPerformed" text="Share Me!">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <CheckBox fx:id="checkencry" layoutX="393.0" layoutY="253.0" mnemonicParsing="false" text="With Encryption">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></CheckBox>
+
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+%%Excelsior JET v11.3 project file
+
+-jpiiproject=C:\Users\Rohit Rathi\Documents\JFileShare\Quick Transfer v2.0.jpn
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui+
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-multiapp-
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1744830464
+-inlinelimit=100
+-inlinetolimit=1000
+-javacommandline:=java -jar JFileShare.jar
+-jetcplastpage:=PageCompile
+-jetrt=Desktop
+-jetvmprop=-Djet.gc.heaplimit:0 -Djet.stack.trace
+-main=jfileshare/JFileShare
+-outputdir=./dist
+-outputname=Quick Transfer v2.0
+-saprofmode=JETCPONLY
+-saproftimeout=20
+-stacklimit=1048576
+-startupprofile=./Quick Transfer v2.0.startup
+-versioninfocompanyname=DarkEye Developers
+-versioninfofiledescription=Quick Transfer v2.0
+-versioninfolegalcopyright=Copyright \x00a9 2017 DarkEye Developers
+-versioninfoproductname=Quick Transfer v2.0
+-versioninfoproductversion=2.0.0.0
+
+
+
+
+!classpathentry ./dist/JFileShare.jar
+  -pack=noncompiled
+  -protect=all
+  -optimize=all
+!end
+
+!module ./QT.ico
+

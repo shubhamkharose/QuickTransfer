@@ -1,0 +1,35 @@
+Excelsior JET v11.3 Evaluation 64-bit (c) Excelsior 1997,2016
+Active Java SE Version 1.8.0_101 (profile 8101)
+************************  JET v11.3 EVALUATION **************************
+*  This program cannot be used in a business, commercial, government,  *
+*  or  institutional  environment  except  for  evaluation  purposes.  *
+************************************************************************
+Make project "C:\Users\Rohit Rathi\Documents\JFileShare\Quick Transfer v2.0.prj"
+Reading dist/JFileShare.jar ...  27 classes
+
+Total compilable classes within classpath entries: 27
+
+------------------------  Parsing Stage  ---------------------------------------
+
+Processing startup profile...
+New "C:/Users/Rohit Rathi/Documents/JFileShare/Quick Transfer v2.0_jetpdb/nums.clnums" is generated
+#project is up to date
+Preparing resources for packing ...
+Processing dist/JFileShare.jar ...
+Resources were successfully prepared for packing.
+
+XDS Link Version 2.25.22 Copyright (c) Excelsior 1995-2016.
+No errors, no warnings
+
+Link time 0:01.06
+
+Total compilation time 0:11.31
+Startup Accelerator Helper Version 1.2 Copyright (c) Excelsior 2010-2015.
+
+Running application:
+  "C:\Users\Rohit Rathi\Documents\JFileShare\dist\Quick Transfer v2.0.exe"
+
+
+Application terminated with exit code 0
+Profile successfully hard-wired into "C:\Users\Rohit Rathi\Documents\JFileShare\dist\Quick Transfer v2.0.exe"
+

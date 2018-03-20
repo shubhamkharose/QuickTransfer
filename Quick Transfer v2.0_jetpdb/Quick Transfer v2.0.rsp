@@ -1,0 +1,40 @@
+
+-arch=amd64
+-PIC
+-jetcomponent=11.30
+-jetedition=Evaluation
+-vcode=8101
+-sys=W
+-nosmart
+-zimer=0
+-stack=1048576
+-LargeAddressAware
+-config=VMProperty:-Djet.gc.heaplimit:0 -Djet.stack.trace
+-config=ClassPath:*{exe.dir}\JFileShare.jar
+-config=JREHome:C:\jet11.3-eval-amd64\bin\..\profile1.8.0_101\jre
+-config=JETProfile:8101
+-config=JETProfileName:1.8.0_101
+-config=RuntimeKind:DESKTOP
+-EmbeddedFileSys=C:/Users/Rohit Rathi/Documents/JFileShare/Quick Transfer v2.0_jetpdb/Quick Transfer v2.0.efs
+-config=MainClass:jfileshare/JFileShare
+-config=VersionInfo:jet-1130-release (eval, en)
+-config=CompatibilityString:Java SE version: 1.8.0_101; JET update level: 0; CPU architecture: amd64
+-name=dist\Quick Transfer v2.0.exe
+C:\Users\Rohit Rathi\Documents\JFileShare\Quick Transfer v2.0_jetpdb\version.res
+
+-entry=ExeEntryPoint
+
+-LinkFileAsRData=LINK_SplashPicture:C:\jet11.3-eval-amd64\lib\x86\dummysplash.lib
+C:\jet11.3-eval-amd64\lib\x86\startup-exe-normal.zip
+-GenExceptionInfo=JR_SystemExceptionHandler
+-config=PackagingOptions:component_microversions=BC-0
+-ReadLinkInfo=C:\Users\Rohit Rathi\Documents\JFileShare\Quick Transfer v2.0_jetpdb\reorder.li
+C:\Users\Rohit Rathi\Documents\JFileShare\Quick Transfer v2.0_jetpdb\obj.zip
+-Config=RTComponent:XKRN11308101.dll
+C:\jet11.3-eval-amd64\lib\x86\startup-rtlink.zip
+C:\jet11.3-eval-amd64\lib\x86\import32.lib
+QT.ico
+C:\jet11.3-eval-amd64\lib\x86\app.res
+-StrictLinkToDLL
+
+
